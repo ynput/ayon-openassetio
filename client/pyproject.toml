@@ -1,0 +1,17 @@
+[project]
+name = "ayon-openassetio"
+description = "AYON OpenAssetIO addon client."
+dynamic = ["version"]
+
+# Dependencies of the OpenAssetIO manager plugin that are not already part
+#   of the AYON dependency package. They end up on PYTHONPATH of launched
+#   applications.
+# NOTE: 'openassetio' and 'openassetio-mediacreation' are intentionally not
+#   listed. They are compiled against the host application (e.g. Nuke ships
+#   its own build) and must come from the host environment.
+[tool.poetry.dependencies]
+cachetools = "*"
+platformdirs = "*"
+semver = "*"
+arrow = "*"
+attrs = "*"

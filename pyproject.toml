@@ -1,0 +1,22 @@
+[project]
+name = "ayon-openassetio"
+version = "0.1.0+dev"
+description = "AYON addon providing the AYON OpenAssetIO manager plugin to applications."
+authors = [
+    { name = "Ynput s.r.o.", email = "info@ynput.io" }
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.9"
+
+[dependency-groups]
+dev = [
+    "ruff",
+]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 79
+exclude = ["client/ayon_openassetio/vendor"]
