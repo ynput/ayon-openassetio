@@ -1,0 +1,5 @@
+# OpenAssetIO default config used by applications launched through AYON.
+# Connection settings (AYON_SERVER_URL, AYON_API_KEY, AYON_BUNDLE_NAME)
+# are read from environment variables set by AYON launcher.
+[manager]
+identifier = "io.ynput.ayon.openassetio.manager"

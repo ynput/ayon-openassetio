@@ -1,0 +1,4 @@
+[submodule "client/ayon_openassetio/vendor/ayon-openassetio-manager-plugin"]
+	path = client/ayon_openassetio/vendor/ayon-openassetio-manager-plugin
+	url = https://github.com/ynput/ayon-openassetio-manager-plugin.git
+	branch = develop
